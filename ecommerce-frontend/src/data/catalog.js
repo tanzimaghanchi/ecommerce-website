@@ -1,0 +1,137 @@
+export const categoryGroups = [
+  {
+    id: "mens-western",
+    label: "Mens Western",
+    blurb: "Contemporary menswear for work, travel, and everyday street style.",
+    items: ["T-Shirts", "Shirts", "Jeans", "Trousers", "Jackets"],
+  },
+  {
+    id: "mens-traditional",
+    label: "Mens Traditional",
+    blurb: "Festive and occasion-ready menswear with a polished ethnic finish.",
+    items: ["Kurtas", "Sherwanis", "Nehru Jackets", "Pajamas"],
+  },
+  {
+    id: "womens-western",
+    label: "Womens Western",
+    blurb: "Modern silhouettes designed for effortless daily styling.",
+    items: ["Tops", "Shirts", "Jeans", "Dresses", "Palazzos"],
+  },
+  {
+    id: "womens-traditional",
+    label: "Womens Traditional",
+    blurb: "Elegant festive looks for weddings, celebrations, and special evenings.",
+    items: ["Kurtis", "Sarees", "Lehengas", "Gowns"],
+  },
+  {
+    id: "kids-boys-western",
+    label: "Kids Boys Western",
+    blurb: "Active western outfits for school days, travel, and casual wear.",
+    items: ["T-Shirts", "Shirts", "Jeans", "Jackets"],
+  },
+  {
+    id: "kids-boys-traditional",
+    label: "Kids Boys Traditional",
+    blurb: "Smart ethnic styles for festivals, weddings, and family events.",
+    items: ["Kurtas", "Ethnic Sets", "Waistcoats", "Pajamas"],
+  },
+  {
+    id: "kids-girls-western",
+    label: "Kids Girls Western",
+    blurb: "Playful western outfits with comfort, color, and movement.",
+    items: ["Frocks", "Tops", "Jeans", "Jumpsuits"],
+  },
+  {
+    id: "kids-girls-traditional",
+    label: "Kids Girls Traditional",
+    blurb: "Traditional occasionwear made for festive family moments.",
+    items: ["Lehengas", "Kurti Sets", "Ethnic Gowns", "Anarkalis"],
+  },
+];
+
+export const curatedCollections = [
+  {
+    title: "Summer Edit",
+    subtitle: "Lightweight fits and fresh colors for daily wear.",
+    image: "https://i.pinimg.com/736x/6a/53/71/6a53716e97652e862981d4d68a0ab5a7.jpg",
+    href: "/?category=Womens%20Western#catalog",
+  },
+  {
+    title: "Festive Drop",
+    subtitle: "Statement pieces designed for weddings and celebrations.",
+    image: "https://i.pinimg.com/736x/75/fe/d9/75fed935e56483f06f96af2b0da4f45f.jpg",
+    href: "/?category=Womens%20Traditional#catalog",
+  },
+  {
+    title: "New Season Kids",
+    subtitle: "Comfort-first styles that still feel polished.",
+    image: "https://i.pinimg.com/736x/b1/99/f5/b199f56d8dbb5d2930c12fa0156e91b1.jpg",
+    href: "/?category=Kids%20Girls%20Western#catalog",
+  },
+];
+
+export const heroSlides = [
+  {
+    id: "womens-edit",
+    badge: "Womens Western",
+    title: "Modern dresses for easy everyday style",
+    copy: "Clean fits, soft colors, and polished looks for daily wear.",
+    href: "/?category=Womens%20Western%20%2F%20Dresses#catalog",
+    actionLabel: "Shop Dresses",
+    secondaryHref: "/?category=Womens%20Western#catalog",
+    secondaryLabel: "View Womens",
+    image: "https://i.pinimg.com/736x/b6/7a/92/b67a921196b4870b4876a680946ea2db.jpg",
+    imagePosition: "center 32%",
+    spotlight: "New Season",
+    meta: ["Daily wear", "Easy styling", "Best sellers"],
+  },
+  {
+    id: "mens-edit",
+    badge: "Mens Western",
+    title: "Sharp jackets and layers for a clean look",
+    copy: "Modern outerwear made for everyday dressing.",
+    href: "/?category=Mens%20Western%20%2F%20Jackets#catalog",
+    actionLabel: "Shop Jackets",
+    secondaryHref: "/?category=Mens%20Western#catalog",
+    secondaryLabel: "View Mens",
+    image: "https://i.pinimg.com/1200x/62/db/c7/62dbc7d5cea4c59a6f382fe3954ac717.jpg",
+    imagePosition: "center 24%",
+    spotlight: "Trending",
+    meta: ["Layered looks", "Clean lines", "Premium finish"],
+  },
+  {
+    id: "festive-edit",
+    badge: "Festive Edit",
+    title: "Elegant lehengas for festive moments",
+    copy: "Rich details and graceful silhouettes for special days.",
+    href: "/?category=Womens%20Traditional%20%2F%20Lehengas#catalog",
+    actionLabel: "Shop Lehengas",
+    secondaryHref: "/?category=Womens%20Traditional#catalog",
+    secondaryLabel: "View Festive",
+    image: "https://i.pinimg.com/1200x/aa/14/d4/aa14d4f9dca36db014ec70f3d38ba360.jpg",
+    imagePosition: "center 20%",
+    spotlight: "Occasion Wear",
+    meta: ["Wedding picks", "Rich drapes", "Statement pieces"],
+  },
+  {
+    id: "kids-edit",
+    badge: "Kids Spotlight",
+    title: "Comfortable kids styles with playful charm",
+    copy: "Soft, bright outfits made for easy everyday wear.",
+    href: "/?category=Kids%20Girls%20Western%20%2F%20Frocks#catalog",
+    actionLabel: "Shop Frocks",
+    secondaryHref: "/?category=Kids%20Girls%20Western#catalog",
+    secondaryLabel: "View Kids",
+    image: "https://i.pinimg.com/736x/ec/ec/96/ecec96dfa5aa6a4f07b3fc445e2e314c.jpg",
+    imagePosition: "center 18%",
+    spotlight: "Fresh Picks",
+    meta: ["Play-ready", "Soft comfort", "Joyful style"],
+  },
+];
+
+export const orderStatuses = [
+  "Order placed",
+  "Payment confirmed",
+  "Packed",
+  "Out for delivery",
+];
